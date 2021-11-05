@@ -158,9 +158,12 @@ select:disabled {
 
 .btn-top {
 	position: fixed;
-	bottom: 24px;
-	right: 24px;
+	bottom: 20px;
+	right: 20px;
 	z-index: 998;
+}
+.btn-top img {
+	width: 52px;
 }
 
 /* login */
