@@ -517,12 +517,10 @@ select:disabled {
 	width: 100vw;
 	background-color: #1e1f4f;
 	text-align: center;
-
 	position: relative;
-
 	left: 0;
 	right: 0;
-	top: 87px;
+	top: 85px;
 	z-index: 997;
 	padding: 10px 5vw 20px;
 	transition: top 0.5s;
@@ -678,13 +676,13 @@ select:disabled {
 }
 
 .wrap-a .exam {
-	width: 32%;
+	width: 33%;
 	margin-bottom: 6px;
 	text-align: left;
 }
 .wrap-a .exam label {
 	font-size: 17px;
-	letter-spacing: -0.7;
+	letter-spacing: -0.9px;
 }
 .wrap-a input[type='radio'] {
 	display: none;
