@@ -617,7 +617,7 @@ select:disabled {
 	border-radius: 5px;
 	color: #fff;
 	width: 48%;
-	height: 40px;
+	padding: 11px 0;
 	font-weight: 700;
 	font-size: 17px;
 }
@@ -820,5 +820,13 @@ select:disabled {
 		height: 40px;
 		font-weight: 700;
 		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 280px) and (max-width: 319px) {
+	.wrap-a .exam {
+		width: 44%;
+		margin-bottom: 6px;
+		text-align: left;
 	}
 }
