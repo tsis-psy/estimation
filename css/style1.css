@@ -126,7 +126,7 @@ select:disabled {
 	width: 100vw;
 	min-height: calc(100vh - 293px);
 	position: absolute;
-	top: 253px;
+	top: 248px;
 	text-align: center;
 	z-index: 997;
 }
@@ -398,7 +398,7 @@ select:disabled {
 }
 .box-list button {
 	background-color: #2ea7ff;
-	padding: 13px 0;
+	padding: 12px 0;
 	color: #fff;
 	width: 100%;
 	position: absolute;
@@ -564,7 +564,6 @@ select:disabled {
 	border-radius: 10px;
 	width: 100%;
 	padding: 16px;
-	margin-bottom: 20px;
 }
 
 .wrap-rating-person span {
@@ -593,11 +592,11 @@ select:disabled {
 
 .wrap-rating-person .name .finish {
 	border: 1px solid #f5ff81;
-	font-size: 11px;
+	font-size: 12px;
 	color: #f5ff81;
 	font-weight: 600;
-	padding: 2px;
-	border-radius: 2px;
+	padding: 2px 5px;
+	border-radius: 15px;
 	margin-left: 6px;
 }
 
@@ -610,6 +609,7 @@ select:disabled {
 .wrap-rating-btn {
 	display: flex;
 	justify-content: space-between;
+	margin-top: 20px;
 }
 .wrap-rating-btn button {
 	background-color: transparent;
@@ -722,6 +722,16 @@ select:disabled {
 }
 
 /* period */
+.wrap-page-period {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .wrap-period {
 	display: flex;
 	flex-direction: column;
